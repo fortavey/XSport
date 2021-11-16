@@ -8,11 +8,13 @@ import {
 } from 'react-native'
 import FlipCard from 'react-native-flip-card'
 
-function Card({ el, idx, flip, changeCardFlip }) {
+function Card({ el, idx, flip, changeCardFlip, isEnd }) {
   return (
     <TouchableOpacity
       style={styles.cardItem}
-      onPress={() => changeCardFlip(idx)}
+      onPress={() => {
+        isEnd ? null : changeCardFlip(idx)
+      }}
     >
       <FlipCard
         flipVertical={false}
@@ -25,7 +27,11 @@ function Card({ el, idx, flip, changeCardFlip }) {
         </View>
         <View style={styles.back}>
           <Image
-            style={styles.cardImage}
+            style={
+              isEnd
+                ? { ...styles.cardImage, ...styles.cardImageOpacity }
+                : styles.cardImage
+            }
             source={require('../../assets/backSide.png')}
           />
         </View>
@@ -43,9 +49,16 @@ const styles = StyleSheet.create({
     height: imageSize,
     marginBottom: 10,
   },
+  winCardItem: {
+    borderColor: 'green',
+    borderWidth: 3,
+  },
   cardImage: {
     width: '100%',
     height: '100%',
+  },
+  cardImageOpacity: {
+    opacity: 0.4,
   },
 })
 

@@ -15,28 +15,27 @@ import HeaderLine from '../components/HeaderLine'
 function CategoryScreen({ route, navigation }) {
   const obj = route.params
 
-  const imageBg = require('../../assets/catBg.png')
+  let imageBg = require('../../assets/catBg.png')
+
+  switch (obj.name.EN) {
+    case 'football':
+      imageBg = require('../../assets/catBg.png')
+      break
+    case 'basketball':
+      imageBg = require('../../assets/basketball.png')
+      break
+  }
 
   const renderCategories = () => {
     const newArr = obj.categories.map((cat, idx) => (
       <TouchableOpacity
         style={styles.item}
         key={idx}
-        onPress={() => navigation.navigate('Card', cat)}
+        onPress={() => navigation.navigate('Card', cat.list)}
       >
         <Text style={styles.itemText}>{cat.name[LangStore.lang]}</Text>
       </TouchableOpacity>
     ))
-
-    newArr.push(
-      <TouchableOpacity
-        style={[styles.item, styles.itemLast]}
-        key={2587}
-        onPress={() => navigation.navigate('Card', {})}
-      >
-        <Text style={styles.itemText}>random</Text>
-      </TouchableOpacity>
-    )
 
     return newArr
   }
@@ -68,14 +67,17 @@ const styles = StyleSheet.create({
   imageBg: {
     flex: 1,
     width: '100%',
-    paddingTop: 50,
+    paddingTop: 30,
   },
   catList: {
+    flex: 1,
+    paddingTop: 50,
     marginRight: 10,
     marginLeft: 10,
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
+    alignItems: 'center',
   },
   item: {
     height: 100,
@@ -93,6 +95,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 22,
     textTransform: 'uppercase',
+    textAlign: 'center',
   },
 })
 

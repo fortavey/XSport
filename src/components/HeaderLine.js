@@ -40,7 +40,6 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     marginRight: 10,
     marginLeft: 10,
-    marginBottom: 30,
     alignItems: 'center',
     justifyContent: 'space-between',
   },
