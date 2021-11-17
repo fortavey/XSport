@@ -615,11 +615,6 @@ class MainStore {
               EN: 'Detroit Red Wings',
             },
             {
-              img: require('../../assets/AnaheimDucksNHL.JPG'),
-              RU: 'Анахайм Дакс',
-              EN: 'Anaheim Ducks',
-            },
-            {
               img: require('../../assets/Carolina_Hurricanes.png'),
               RU: 'Каролина Харрикейнз',
               EN: 'Carolina Hurricanes',

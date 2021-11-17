@@ -62,12 +62,12 @@ function HomeScreen({ navigation }) {
         <TouchableOpacity style={styles.navItem} onPress={openPopup}>
           <FontAwesome name="language" size={50} color="white" />
         </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem}>
+        {/* <TouchableOpacity style={styles.navItem}>
           <Ionicons name="ios-documents-outline" size={50} color="white" />
         </TouchableOpacity>
         <TouchableOpacity style={styles.navItem}>
           <Feather name="settings" size={50} color="white" />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
       {showPopup && <LangPopup closePopup={closePopup}></LangPopup>}
     </View>
