@@ -24,6 +24,9 @@ function CategoryScreen({ route, navigation }) {
     case 'basketball':
       imageBg = require('../../assets/basketball.png')
       break
+    case 'hockey':
+      imageBg = require('../../assets/hockey.png')
+      break
   }
 
   const renderCategories = () => {
