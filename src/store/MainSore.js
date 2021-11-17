@@ -505,102 +505,156 @@ class MainStore {
             RU: 'Игроки',
             EN: 'Players',
           },
-          list: [],
+          list: [
+            {
+              img: require('../../assets/waine_gretz.jpg'),
+              RU: 'Уэйн Гретцки',
+              EN: 'Wayne Gretzky',
+            },
+            {
+              img: require('../../assets/gordon_how.jpeg'),
+              RU: 'Гордон Хоу',
+              EN: 'Gordon Howe',
+            },
+            {
+              img: require('../../assets/Mario_Lemieux.jpg'),
+              RU: 'Марио Лемьё',
+              EN: 'Mario Lemieux',
+            },
+            {
+              img: require('../../assets/mark-messier.jpg'),
+              RU: 'Марк Мессье',
+              EN: 'Mark Messier',
+            },
+            {
+              img: require('../../assets/ray_bourge.jpg'),
+              RU: 'Рэй Бурк',
+              EN: 'Raymond Bourque',
+            },
+            {
+              img: require('../../assets/patrick_roy.jpg'),
+              RU: 'Патрик Руа',
+              EN: 'Patrick Roy',
+            },
+            {
+              img: require('../../assets/paul_coffe.jpg'),
+              RU: 'Пол Коффи',
+              EN: 'Paul Coffey',
+            },
+            {
+              img: require('../../assets/Jaromir_Jagr.jpg'),
+              RU: 'Яромир Ягр',
+              EN: 'Jaromir Jagr',
+            },
+            {
+              img: require('../../assets/eric_lindros.jpg'),
+              RU: 'Эрик Линдрос',
+              EN: 'Eric Lindros',
+            },
+            {
+              img: require('../../assets/Brian_Leetch.jpg'),
+              RU: 'Брайан Лич',
+              EN: 'Brian Leetch',
+            },
+            {
+              img: require('../../assets/stephen_yezerman.jpg'),
+              RU: 'Стив Айзерман',
+              EN: 'Stephen Yzerman',
+            },
+            {
+              img: require('../../assets/Joe_sakic.jpg'),
+              RU: 'Джо Сакик',
+              EN: 'Joe Sakic',
+            },
+          ],
         },
         {
           name: {
             RU: 'Клубы',
             EN: 'Clubs',
           },
-          list: [],
-        },
-        {
-          name: {
-            RU: 'Сборные',
-            EN: 'National teams',
-          },
-          list: [],
-        },
-        {
-          name: {
-            RU: 'Лиги',
-            EN: 'Leagues',
-          },
-          list: [],
-        },
-      ],
-    },
-    tennis: {
-      id: 3,
-      name: {
-        RU: 'тенис',
-        EN: 'tennis',
-      },
-      categories: [
-        {
-          name: {
-            RU: 'Игроки',
-            EN: 'Players',
-          },
-          list: [],
-        },
-        {
-          name: {
-            RU: 'Клубы',
-            EN: 'Clubs',
-          },
-          list: [],
-        },
-        {
-          name: {
-            RU: 'Сборные',
-            EN: 'National teams',
-          },
-          list: [],
-        },
-        {
-          name: {
-            RU: 'Лиги',
-            EN: 'Leagues',
-          },
-          list: [],
-        },
-      ],
-    },
-    volleyball: {
-      id: 4,
-      name: {
-        RU: 'волейбол',
-        EN: 'volleyball',
-      },
-      categories: [
-        {
-          name: {
-            RU: 'Игроки',
-            EN: 'Players',
-          },
-          list: [],
-        },
-        {
-          name: {
-            RU: 'Клубы',
-            EN: 'Clubs',
-          },
-          list: [],
-        },
-        {
-          name: {
-            RU: 'Сборные',
-            EN: 'National teams',
-          },
-          list: [],
-        },
-        {
-          name: {
-            RU: 'Лиги',
-            EN: 'Leagues',
-          },
-          list: [],
+          list: [
+            {
+              img: require('../../assets/Tampa_Bay_Lightning.png'),
+              RU: 'Тампа-Бэй Лайтнинг',
+              EN: 'Tampa Bay Lightning',
+            },
+            {
+              img: require('../../assets/StLouis_Blues.png'),
+              RU: 'Сент-Луис Блюз',
+              EN: 'St. Louis Blues',
+            },
+            {
+              img: require('../../assets/Washington_Capitals.png'),
+              RU: 'Вашингтон Кэпиталз',
+              EN: 'Washington Capitals',
+            },
+            {
+              img: require('../../assets/Pittsburgh_penguins.png'),
+              RU: 'Питтсбург Пингвинз',
+              EN: 'Pittsburgh Penguins',
+            },
+            {
+              img: require('../../assets/Chicago_Blackhawks.png'),
+              RU: 'Чикаго Блэкхокс',
+              EN: 'Chicago Blackhawks',
+            },
+            {
+              img: require('../../assets/Los_Angeles_Kings.png'),
+              RU: 'Лос-Анджелес Кингз',
+              EN: 'Los Angeles Kings',
+            },
+            {
+              img: require('../../assets/Boston_Bruins.png'),
+              RU: 'Бостон Брюинз',
+              EN: 'Boston Bruins',
+            },
+            {
+              img: require('../../assets/Detroit_Redwings.png'),
+              RU: 'Детройт Ред Уингз',
+              EN: 'Detroit Red Wings',
+            },
+            {
+              img: require('../../assets/AnaheimDucksNHL.JPG'),
+              RU: 'Анахайм Дакс',
+              EN: 'Anaheim Ducks',
+            },
+            {
+              img: require('../../assets/Carolina_Hurricanes.png'),
+              RU: 'Каролина Харрикейнз',
+              EN: 'Carolina Hurricanes',
+            },
+            {
+              img: require('../../assets/New_Jersey_Devils.png'),
+              RU: 'Нью-Джерси Девилз',
+              EN: 'New Jersey Devils',
+            },
+            {
+              img: require('../../assets/Colorado_Avalanche.png'),
+              RU: 'Колорадо Эвеланш',
+              EN: 'Colorado Avalanche',
+            },
+            {
+              img: require('../../assets/Dallas_Stars.png'),
+              RU: 'Даллас Старз',
+              EN: 'Dallas Stars',
+            },
+            {
+              img: require('../../assets/New_York_Rangers.png'),
+              RU: 'Нью-Йорк Рейнджерс',
+              EN: 'New York Rangers',
+            },
+            {
+              img: require('../../assets/Montreal_Canadiens.png'),
+              RU: 'Монреаль Канадиенс',
+              EN: 'Montreal Canadiens',
+            },
+            {
+              img: require('../../assets/Edmonton_Oilers.png'),
+              RU: 'Эдмонтон Ойлерз',
+              EN: 'Edmonton Oilers',
+            },
+          ],
         },
       ],
     },
