@@ -325,14 +325,171 @@ class MainStore {
             RU: 'Игроки',
             EN: 'Players',
           },
-          list: [],
+          list: [
+            {
+              img: require('../../assets/karl_malone.png'),
+              RU: 'Карл Мэлоун',
+              EN: 'Karl Malone',
+            },
+            {
+              img: require('../../assets/lebron_james.png'),
+              RU: 'Леброн Джеймс',
+              EN: 'LeBron James',
+            },
+            {
+              img: require('../../assets/kobe_bryant.png'),
+              RU: 'Коби Брайант',
+              EN: 'Kobe Bryant',
+            },
+            {
+              img: require('../../assets/michael_jordan.jpg'),
+              RU: 'Майкл Джордан',
+              EN: 'Michael Jordan',
+            },
+            {
+              img: require('../../assets/dirk_nowitzki.jpg'),
+              RU: 'Дирк Новицки',
+              EN: 'Dirk Nowitzki',
+            },
+            {
+              img: require('../../assets/wilton_chamberlain.jpg'),
+              RU: 'Уилт Чемберлен',
+              EN: 'Wilton Chamberlain',
+            },
+            {
+              img: require('../../assets/shaquille_oneal.jpg'),
+              RU: "Шакил О'Нил",
+              EN: "Shaquille O'Neal",
+            },
+            {
+              img: require('../../assets/carmelo_anthony.jpg'),
+              RU: 'Кармело Энтони',
+              EN: 'Carmelo Anthony',
+            },
+            {
+              img: require('../../assets/mozes_mjeloun.jpg'),
+              RU: 'Мозес Мэлоун',
+              EN: 'Moses Malone',
+            },
+            {
+              img: require('../../assets/dominique_wilkins.jpg'),
+              RU: 'Доминик Уилкинс',
+              EN: 'Dominique Wilkins',
+            },
+            {
+              img: require('../../assets/timothy_duncan.jpg'),
+              RU: 'Тим Данкан',
+              EN: 'Timothy Duncan',
+            },
+            {
+              img: require('../../assets/paul_pierce.jpg'),
+              RU: 'Пол Пирс',
+              EN: 'Paul Pierce',
+            },
+            {
+              img: require('../../assets/kevin_garnett.jpg'),
+              RU: 'Кевин Гарнетт',
+              EN: 'Kevin Garnett',
+            },
+            {
+              img: require('../../assets/vince_carter.jpg'),
+              RU: 'Винс Картер',
+              EN: 'Vincent Carter',
+            },
+            {
+              img: require('../../assets/dwyane_wade.jpg'),
+              RU: 'Дуэйн Уэйд',
+              EN: 'Dwyane Wade',
+            },
+            {
+              img: require('../../assets/anthony_davis.jpg'),
+              RU: 'Энтони Дэвис',
+              EN: 'Anthony Davis',
+            },
+          ],
         },
         {
           name: {
             RU: 'Клубы',
             EN: 'Clubs',
           },
-          list: [],
+          list: [
+            {
+              img: require('../../assets/boston_celtics.png'),
+              RU: 'Бостон Селтикс',
+              EN: 'Boston Celtics',
+            },
+            {
+              img: require('../../assets/chicago_bulls.png'),
+              RU: 'Чикаго Буллз',
+              EN: 'Chicago Bulls',
+            },
+            {
+              img: require('../../assets/miami_heat.png'),
+              RU: 'Майами Хит',
+              EN: 'Miami Heat',
+            },
+            {
+              img: require('../../assets/orlando_magic.png'),
+              RU: 'Орландо Мэджик',
+              EN: 'Orlando Magic',
+            },
+            {
+              img: require('../../assets/golden_state_warriors.png'),
+              RU: 'Голден Стэйт Уорриорз',
+              EN: 'Golden State Warriors',
+            },
+            {
+              img: require('../../assets/los_angeles_lakers.png'),
+              RU: 'Лос-Анджелес Лейкерс',
+              EN: 'Los Angeles Lakers',
+            },
+            {
+              img: require('../../assets/sacramento_king.png'),
+              RU: 'Сакраменто Кингз',
+              EN: 'Sacramento Kings',
+            },
+            {
+              img: require('../../assets/new_york_knicks.png'),
+              RU: 'Нью-Йорк Никс',
+              EN: 'New York Knicks',
+            },
+            {
+              img: require('../../assets/detroit_pistons.png'),
+              RU: 'Детройт Пистонс',
+              EN: 'Detroit Pistons',
+            },
+            {
+              img: require('../../assets/cleveland_cavaliers.png'),
+              RU: 'Кливленд Кавальерс',
+              EN: 'Cleveland Cavaliers',
+            },
+            {
+              img: require('../../assets/washington_wizards.png'),
+              RU: 'Вашингтон Уизардс',
+              EN: 'Washington Wizards',
+            },
+            {
+              img: require('../../assets/phoenix_suns.png'),
+              RU: 'Финикс Санз',
+              EN: 'Phoenix Suns',
+            },
+            {
+              img: require('../../assets/san_antonio.png'),
+              RU: 'Сан-Антонио Спёрс',
+              EN: 'San Antonio Spurs',
+            },
+            {
+              img: require('../../assets/huston_rockets.png'),
+              RU: 'Хьюстон Рокетс',
+              EN: 'Houston Rockets',
+            },
+            {
+              img: require('../../assets/toronto_raptors.png'),
+              RU: 'Торонто Рэпторс',
+              EN: 'Toronto Raptors',
+            },
+          ],
         },
       ],
     },
