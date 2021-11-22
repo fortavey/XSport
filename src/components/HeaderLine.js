@@ -50,11 +50,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   langItem: {
-    width: '45%',
+    width: '35%',
   },
   flag: {
     width: '100%',
-    height: Platform.OS === 'ios' ? 45 : 30,
+    height: Platform.OS === 'ios' ? 30 : 20,
   },
 })
 

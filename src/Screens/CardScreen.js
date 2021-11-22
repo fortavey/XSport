@@ -91,7 +91,7 @@ function CardScreen({ route, navigation }) {
       {showPopup && (
         <HelpPopup closeHelpPopup={closeHelpPopup} el={obj[num]}></HelpPopup>
       )}
-      <StatusBar style="light" backgroundColor={THEME.MAIN_COLOR} />
+      <StatusBar hidden={true} />
       <ImageBackground
         source={imageBg}
         resizeMode="cover"

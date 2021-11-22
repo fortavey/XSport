@@ -45,7 +45,7 @@ function CategoryScreen({ route, navigation }) {
 
   return (
     <View style={styles.container}>
-      <StatusBar style="light" backgroundColor={THEME.MAIN_COLOR} />
+      <StatusBar hidden={true} />
       <ImageBackground
         source={imageBg}
         resizeMode="cover"

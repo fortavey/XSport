@@ -12,8 +12,6 @@ import {
 import THEME from '../data/color'
 import { StatusBar } from 'expo-status-bar'
 import { FontAwesome } from '@expo/vector-icons'
-import { Ionicons } from '@expo/vector-icons'
-import { Feather } from '@expo/vector-icons'
 import LangPopup from '../components/LangPopup'
 
 function HomeScreen({ navigation }) {
@@ -49,7 +47,7 @@ function HomeScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <StatusBar style="light" backgroundColor={THEME.MAIN_COLOR} />
+      <StatusBar hidden={true} />
       <ImageBackground
         source={imageBg}
         resizeMode="cover"
@@ -57,18 +55,12 @@ function HomeScreen({ navigation }) {
       >
         <Text style={styles.title}>{translate.title[LangStore.lang]}</Text>
         <View style={styles.catList}>{renderCategories()}</View>
+        <View style={styles.navigation}>
+          <TouchableOpacity style={styles.navItem} onPress={openPopup}>
+            <FontAwesome name="language" size={50} color="white" />
+          </TouchableOpacity>
+        </View>
       </ImageBackground>
-      <View style={styles.navigation}>
-        <TouchableOpacity style={styles.navItem} onPress={openPopup}>
-          <FontAwesome name="language" size={50} color="white" />
-        </TouchableOpacity>
-        {/* <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="ios-documents-outline" size={50} color="white" />
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem}>
-          <Feather name="settings" size={50} color="white" />
-        </TouchableOpacity> */}
-      </View>
       {showPopup && <LangPopup closePopup={closePopup}></LangPopup>}
     </View>
   )
@@ -115,6 +107,7 @@ const styles = StyleSheet.create({
     width: '100%',
     justifyContent: 'space-around',
     paddingBottom: 50,
+    marginTop: 'auto',
   },
 })
 

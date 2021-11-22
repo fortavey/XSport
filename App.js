@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import loadFunction from './src/asyncFunctions/load'
 import getLang from './src/asyncFunctions/getLang'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
@@ -12,7 +11,6 @@ function App() {
 
   useEffect(() => {
     getLang()
-    // loadFunction()
   }, [])
 
   return (
