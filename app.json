@@ -2,7 +2,7 @@
   "expo": {
     "name": "X Sport",
     "slug": "x-sport",
-    "version": "1.2.0",
+    "version": "1.4.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -19,7 +19,7 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "ru.bretool.xsport",
-      "buildNumber": "1.2.0"
+      "buildNumber": "1.4.0"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,7 +27,7 @@
         "backgroundColor": "#002C59"
       },
       "package": "ru.bretool.xsport",
-      "versionCode": 3,
+      "versionCode": 5,
       "permissions": []
     },
     "web": {
