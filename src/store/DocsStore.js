@@ -1,12 +1,7 @@
-import { makeObservable, action, observable, computed } from 'mobx'
-import LangStore from './LangStore'
+import { makeObservable, observable, computed } from 'mobx'
 
 class DocsStore {
   url = `https://bretool.ru/privacy-policy-en.php`
-
-  change = (val) => {
-    this.url = val
-  }
 
   get link() {
     return this.url
@@ -16,7 +11,6 @@ class DocsStore {
     makeObservable(this, {
       url: observable,
       link: computed,
-      change: action,
     })
   }
 }

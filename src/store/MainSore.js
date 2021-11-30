@@ -257,6 +257,89 @@ class MainStore {
             },
           ],
         },
+        {
+          name: {
+            RU: 'Клубы',
+            EN: 'Clubs',
+          },
+          list: [
+            {
+              img: require('../../assets/boston_celtics.png'),
+              RU: 'Бостон Селтикс',
+              EN: 'Boston Celtics',
+            },
+            {
+              img: require('../../assets/chicago_bulls.png'),
+              RU: 'Чикаго Буллз',
+              EN: 'Chicago Bulls',
+            },
+            {
+              img: require('../../assets/miami_heat.png'),
+              RU: 'Майами Хит',
+              EN: 'Miami Heat',
+            },
+            {
+              img: require('../../assets/orlando_magic.png'),
+              RU: 'Орландо Мэджик',
+              EN: 'Orlando Magic',
+            },
+            {
+              img: require('../../assets/golden_state_warriors.png'),
+              RU: 'Голден Стэйт Уорриорз',
+              EN: 'Golden State Warriors',
+            },
+            {
+              img: require('../../assets/los_angeles_lakers.png'),
+              RU: 'Лос-Анджелес Лейкерс',
+              EN: 'Los Angeles Lakers',
+            },
+            {
+              img: require('../../assets/sacramento_king.png'),
+              RU: 'Сакраменто Кингз',
+              EN: 'Sacramento Kings',
+            },
+            {
+              img: require('../../assets/new_york_knicks.png'),
+              RU: 'Нью-Йорк Никс',
+              EN: 'New York Knicks',
+            },
+            {
+              img: require('../../assets/detroit_pistons.png'),
+              RU: 'Детройт Пистонс',
+              EN: 'Detroit Pistons',
+            },
+            {
+              img: require('../../assets/cleveland_cavaliers.png'),
+              RU: 'Кливленд Кавальерс',
+              EN: 'Cleveland Cavaliers',
+            },
+            {
+              img: require('../../assets/washington_wizards.png'),
+              RU: 'Вашингтон Уизардс',
+              EN: 'Washington Wizards',
+            },
+            {
+              img: require('../../assets/phoenix_suns.png'),
+              RU: 'Финикс Санз',
+              EN: 'Phoenix Suns',
+            },
+            {
+              img: require('../../assets/san_antonio.png'),
+              RU: 'Сан-Антонио Спёрс',
+              EN: 'San Antonio Spurs',
+            },
+            {
+              img: require('../../assets/huston_rockets.png'),
+              RU: 'Хьюстон Рокетс',
+              EN: 'Houston Rockets',
+            },
+            {
+              img: require('../../assets/toronto_raptors.png'),
+              RU: 'Торонто Рэпторс',
+              EN: 'Toronto Raptors',
+            },
+          ],
+        },
       ],
     },
   }

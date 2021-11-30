@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { observer } from 'mobx-react-lite'
 import LangStore from '../store/LangStore'
 import MainSore from '../store/MainSore'
@@ -13,7 +13,6 @@ import THEME from '../data/color'
 import { StatusBar } from 'expo-status-bar'
 import { FontAwesome } from '@expo/vector-icons'
 import { Ionicons } from '@expo/vector-icons'
-import { Feather } from '@expo/vector-icons'
 import LangPopup from '../components/LangPopup'
 
 function HomeScreen({ navigation }) {
@@ -39,6 +38,10 @@ function HomeScreen({ navigation }) {
   const closePopup = () => {
     setShowPopup(false)
   }
+
+  useEffect(() => {
+    LangStore.show && navigation.navigate('Docs')
+  }, [])
 
   const translate = {
     title: {
@@ -66,9 +69,6 @@ function HomeScreen({ navigation }) {
             onPress={() => navigation.navigate('Docs')}
           >
             <Ionicons name="ios-documents-outline" size={50} color="white" />
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.navItem}>
-            <Feather name="settings" size={50} color="white" />
           </TouchableOpacity>
         </View>
       </ImageBackground>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { observer } from 'mobx-react-lite'
 import LangStore from '../store/LangStore'
-import { View, StyleSheet, Text, TouchableOpacity, Image } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, Image } from 'react-native'
 import THEME from '../data/color'
 
 function LangPopup({ closePopup }) {

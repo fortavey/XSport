@@ -13,7 +13,7 @@ import {
 function HeaderLine({ navigation }) {
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+      <TouchableOpacity onPress={() => navigation.push('Home')}>
         <Ionicons name="ios-home-outline" size={35} color="white" />
       </TouchableOpacity>
       <View style={styles.langContainer}>
