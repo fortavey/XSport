@@ -60,9 +60,5 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
   },
-  flag: {
-    borderWidth: 1,
-    borderColor: THEME.MAIN_COLOR,
-  },
 })
 export default observer(HelpPopup)

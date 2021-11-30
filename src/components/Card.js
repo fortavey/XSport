@@ -49,10 +49,6 @@ const styles = StyleSheet.create({
     height: imageSize,
     marginBottom: 10,
   },
-  winCardItem: {
-    borderColor: 'green',
-    borderWidth: 3,
-  },
   cardImage: {
     width: '100%',
     height: '100%',

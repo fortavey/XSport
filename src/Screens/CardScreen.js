@@ -136,7 +136,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: THEME.MAIN_COLOR,
-    position: 'relative',
   },
   imageBg: {
     flex: 1,
@@ -149,15 +148,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingLeft: 10,
     paddingRight: 10,
-  },
-  cardItem: {
-    width: imageSize,
-    height: imageSize,
-    marginBottom: 10,
-  },
-  cardImage: {
-    width: '100%',
-    height: '100%',
   },
   victoryButton: {
     width: '70%',

@@ -91,9 +91,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 10,
   },
-  itemLast: {
-    width: '100%',
-  },
   itemText: {
     color: '#fff',
     fontSize: 22,
